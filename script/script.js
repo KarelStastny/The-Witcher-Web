@@ -37,8 +37,5 @@ printText = () => {
 printText()
 
 
-let url = "https://github.com/diwashrestha/WitcherAPI"
 
-console.log(url);
 
-console.log("jdfslf");
