@@ -1,9 +1,44 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
 /***************************** Wallpapers page */
+body {
+  background-color: #e5e5e5;
+}
+
+.wallpapersHedding {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 60px;
+  text-shadow: 0 0 30px #141414;
+}
+
+.wallpapersContainer {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.wallpapersContainer .oneImage {
+  width: 500px;
+  height: 300px;
+  margin: 10px;
+  cursor: pointer;
+}
+.wallpapersContainer .oneImage img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}/*# sourceMappingURL=style.css.map */

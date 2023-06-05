@@ -16,7 +16,7 @@ hamburger.addEventListener("click", () =>{
 // Auto Write text heding
 let hedding = document.querySelector(".heddingText")
 let hedding2 = document.querySelector(".heddingText2")
-let text = "The Witcher "
+let text = "The Witcher"
 let text2 = "Fan club for Life"
 let idFirstLetter = 1
 let speed = 500 / 8
@@ -35,3 +35,10 @@ printText = () => {
 }
 
 printText()
+
+
+let url = "https://github.com/diwashrestha/WitcherAPI"
+
+console.log(url);
+
+console.log("jdfslf");
