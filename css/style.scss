@@ -135,3 +135,57 @@ body{
         }
     }
 }
+
+/************************** One Book page*/
+
+.containerPart{
+    box-shadow: 0 0 10px $Color-Black;
+    max-width: 800px;
+    width: 100%;
+    margin:  0 auto;
+    margin-top: 60px;
+    background-color: $Color-Black;
+    border-radius: $Radius-Small;
+
+
+
+    .box{
+        display: flex;
+        
+
+        img{
+            height: 500px;
+            width: 350px;
+            border-top-left-radius: $Radius-Small;;
+
+        }
+        .details{
+            margin-top: 60px;
+            width: 100%;
+            color: $Color-White;
+
+            
+            h3{
+                @include OtherPageHeddingH2();
+                font-size: 30px;
+                margin-bottom: 60px;
+            }
+
+            p, a{
+                padding-left: 20px;
+                margin: 10px;
+            }
+
+            a{
+                text-decoration: underline;
+                color: $Color-Red;
+            }
+
+            
+        }
+    }
+    .description{
+        color: $Color-White;
+        padding: 20px;
+    }
+}

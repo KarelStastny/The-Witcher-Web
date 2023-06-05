@@ -96,4 +96,48 @@ body {
   color: #141414;
   background-color: #e5e5e5;
   font-weight: 900;
+}
+
+/************************** One Book page*/
+.containerPart {
+  box-shadow: 0 0 10px #141414;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 60px;
+  background-color: #141414;
+  border-radius: 10px;
+}
+.containerPart .box {
+  display: flex;
+}
+.containerPart .box img {
+  height: 500px;
+  width: 350px;
+  border-top-left-radius: 10px;
+}
+.containerPart .box .details {
+  margin-top: 60px;
+  width: 100%;
+  color: #e5e5e5;
+}
+.containerPart .box .details h3 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 60px;
+  text-shadow: 0 0 30px #141414;
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+.containerPart .box .details p, .containerPart .box .details a {
+  padding-left: 20px;
+  margin: 10px;
+}
+.containerPart .box .details a {
+  text-decoration: underline;
+  color: #e50914;
+}
+.containerPart .description {
+  color: #e5e5e5;
+  padding: 20px;
 }/*# sourceMappingURL=style.css.map */
