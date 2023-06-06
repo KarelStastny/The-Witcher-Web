@@ -58,6 +58,226 @@ const monsters = [{
     id: 15,
     name: "Drowner",
     image: "../images/monsters/drowner.png",
+},{
+    id: 16,
+    name: "Eathe Elemental",
+    image: "../images/monsters/earthelemental.png",
+},{
+    id: 17,
+    name: "Ekimmara",
+    image: "../images/monsters/ekimmara.png",
+},{
+    id: 18,
+    name: "Endrega Drone",
+    image: "../images/monsters/endregadrone.png",
+},{
+    id: 19,
+    name: "Endrega Warrior",
+    image: "../images/monsters/endregawarrior.png",
+},{
+    id: 20,
+    name: "Endrega Worker",
+    image: "../images/monsters/endregawarrior.png",
+},{
+    id: 21,
+    name: "Erynia",
+    image: "../images/monsters/erynia.png",
+},{
+    id: 22,
+    name: "Fiend",
+    image: "../images/monsters/fiend.png",
+},{
+    id: 23,
+    name: "Fire Elemental",
+    image: "../images/monsters/fireelemental.png",
+},{
+    id: 24,
+    name: "Foglet",
+    image: "../images/monsters/foglet.png",
+},{
+    id: 25,
+    name: "Forktail",
+    image: "../images/monsters/forktail.png",
+},{
+    id: 26,
+    name: "Fugas",
+    image: "../images/monsters/fugas.png",
+},{
+    id: 27,
+    name: "Gael",
+    image: "../images/monsters/gael.png",
+},{
+    id: 28,
+    name: "Gargoyle",
+    image: "../images/monsters/gargoyle.png",
+},{
+    id: 30,
+    name: "Ghoul",
+    image: "../images/monsters/ghoul.png",
+},{
+    id: 31,
+    name: "Godling",
+    image: "../images/monsters/godling.png",
+},{
+    id: 32,
+    name: "Golem",
+    image: "../images/monsters/golem.png",
+},{
+    id: 33,
+    name: "Gravehag",
+    image: "../images/monsters/gravehag.png",
+},{
+    id: 34,
+    name: "Griffin",
+    image: "../images/monsters/griffin.png",
+},{
+    id: 35,
+    name: "Hagubman",
+    image: "../images/monsters/hagubman.png",
+},{
+    id: 36,
+    name: "Harpy",
+    image: "../images/monsters/harpy.png",
+},{
+    id: 37,
+    name: "Harrisi",
+    image: "../images/monsters/harrisi.png",
+},{
+    id: 38,
+    name: "Higher Vampire",
+    image: "../images/monsters/highervampire.png",
+},{
+    id: 39,
+    name: "Hound of The Wild Hunt",
+    image: "../images/monsters/houndofthewildhunt.png",
+},{
+    id: 40,
+    name: "Howler",
+    image: "../images/monsters/howler.png",
+},{
+    id: 41,
+    name: "Hym",
+    image: "../images/monsters/hym.png",
+},{
+    id: 42,
+    name: "chort",
+    image: "../images/monsters/chort.png",
+},{
+    id: 43,
+    name: "Ice Giant",
+    image: "../images/monsters/icegiant.png",
+},{
+    id: 44,
+    name: "Ice Troll",
+    image: "../images/monsters/icetroll.png",
+},{
+    id: 45,
+    name: "Jenny Othewoods",
+    image: "../images/monsters/jennyothewoods.png",
+},{
+    id: 46,
+    name: "Katakan",
+    image: "../images/monsters/katakan.png",
+},{
+    id: 47,
+    name: "Leshen",
+    image: "../images/monsters/leshen.png",
+},{
+    id: 48,
+    name: "Nekker",
+    image: "../images/monsters/nekker.png",
+},{
+    id: 49,
+    name: "Night Wraith",
+    image: "../images/monsters/nightwraith.png",
+},{
+    id: 50,
+    name: "Noon Wraith",
+    image: "../images/monsters/noonwraith.png",
+},{
+    id: 51,
+    name: "Panther",
+    image: "../images/monsters/panther.png",
+},{
+    id: 52,
+    name: "Proto Fleder",
+    image: "../images/monsters/protofleder.png",
+},{
+    id: 53,
+    name: "Rock Troll",
+    image: "../images/monsters/rocktroll.png",
+},{
+    id: 54,
+    name: "Rotfiend",
+    image: "../images/monsters/rotfiend.png",
+},{
+    id: 55,
+    name: "Roy Alwyvern",
+    image: "../images/monsters/royalwyvern.png",
+},{
+    id: 56,
+    name: "Siren",
+    image: "../images/monsters/siren.png",
+},{
+    id: 57,
+    name: "Succubus",
+    image: "../images/monsters/succubus.png",
+},{
+    id: 58,
+    name: "Sylvan",
+    image: "../images/monsters/sylvan.png",
+},{
+    id: 59,
+    name: "The Apiari Anphantom",
+    image: "../images/monsters/theapiarianphantom.png",
+},{
+    id: 60,
+    name: "The dragon of Fyresdal",
+    image: "../images/monsters/thedragonoffyresdal.png",
+},{
+    id: 61,
+    name: "Therazane",
+    image: "../images/monsters/therazane.png",
+},{
+    id: 62,
+    name: "The Whitelady",
+    image: "../images/monsters/thewhitelady.png",
+},{
+    id: 63,
+    name: "Toad Prince",
+    image: "../images/monsters/toad_prince.png",
+},{
+    id: 64,
+    name: "Ulf hedinn",
+    image: "../images/monsters/ulfhedinn.png",
+},{
+    id: 65,
+    name: "Venomousarachas",
+    image: "../images/monsters/venomousarachas.png",
+},{
+    id: 66,
+    name: "Waterhag",
+    image: "../images/monsters/waterhag.png",
+},{
+    id: 67,
+    name: "Werewolf",
+    image: "../images/monsters/werewolf.png",
+},{
+    id: 68,
+    name: "Whama Wham",
+    image: "../images/monsters/whamawham.png",
+},{
+    id: 69,
+    name: "Wild Boar",
+    image: "../images/monsters/wild_boar.png",
+},{
+    id: 70,
+    name: "Wolf",
+    image: "../images/monsters/wolf.png",
+},{
+    id: 71,
+    name: "Wyvern",
+    image: "../images/monsters/wyvern.png",
 },
 ]
 
