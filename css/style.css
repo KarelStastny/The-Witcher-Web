@@ -140,4 +140,9 @@ body {
 .containerPart .description {
   color: #e5e5e5;
   padding: 20px;
+}
+
+/************************** Characters */
+.character-list .hide {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
