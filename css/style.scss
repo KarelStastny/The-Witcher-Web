@@ -47,6 +47,25 @@
     font-size: 60px;
     text-shadow: 0 0 30px $Color-Black;
 }
+
+@mixin RowPage {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@mixin SearchInput(){
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    font-size: 25px;
+    padding: 5px 15px;
+    outline: none;
+    border-radius: $Radius-Small;
+    border: 1px solid $Color-Black;
+    max-width: 400px;
+    width: 100%
+}
 /***************************** Wallpapers page */
 body{
     background-color: $Color-White;
@@ -55,9 +74,7 @@ body{
     @include OtherPageHeddingH2();
 }
 .wallpapersContainer{
-    max-width: 1600px;
-    width: 100%;
-    margin: 0 auto;
+    @include RowPage();
     padding-top: 40px;
     @include standartFlex();
     flex-wrap: wrap;
@@ -84,9 +101,7 @@ body{
 }
 
 .container-book{
-    max-width: 1600px;
-    width: 100%;
-    margin: 0 auto;
+    @include RowPage();
     margin-top: 60px;
     @include standartFlex();
     flex-wrap: wrap;
@@ -192,7 +207,7 @@ body{
 /************************** Characters */
 
 .container-character{
-    
+    @include RowPage();
     min-height: 100vh;
     .box-input{
         text-align: center;
@@ -200,16 +215,7 @@ body{
         
     
         .search-character{
-            margin-top: 20px;
-            margin-bottom: 20px;
-            height: 40px;
-            font-size: 25px;
-            padding: 5px 15px;
-            outline: none;
-            border-radius: $Radius-Small;
-            border: 1px solid $Color-Black;
-            max-width: 400px;
-            width: 100%
+            @include SearchInput();
         }
     
     }
@@ -252,6 +258,53 @@ body{
 
 
 
+/************************** Characters */
+.monster-container{
+    @include RowPage();
 
+    .searchBoxMonster{
+        text-align: center;
+
+
+        .monsterInput{
+            @include SearchInput();
+        }
+    }
+    .optionsSearch{
+        text-align: center;
+    }
+
+    .allmonster{
+         @include standartFlex();
+         flex-wrap: wrap;
+         margin-top: 60px;
+
+         .card-monster{
+            margin: 10px;
+            width: 350px;
+            height: 400px;
+            font-size: 22px;
+            color: $Color-White;
+            background-color: $Color-Black-Light;
+            border-radius: $Radius-Big;
+            text-shadow: 0 0 10px $Color-Black;
+            
+            h3{
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                text-decoration: underline;
+            }
+
+            img{
+                width: 350px;
+                height: 350px;
+                object-fit: contain;
+            }
+         }
+    }
+
+    
+}
 
 

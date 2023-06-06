@@ -144,6 +144,9 @@ body {
 
 /************************** Characters */
 .container-character {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
   min-height: 100vh;
 }
 .container-character .box-input {
@@ -192,4 +195,59 @@ body {
   font-size: 22px;
   letter-spacing: 1px;
   text-shadow: 0 0 10px #e50914;
+}
+
+/************************** Characters */
+.monster-container {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+.monster-container .searchBoxMonster {
+  text-align: center;
+}
+.monster-container .searchBoxMonster .monsterInput {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 40px;
+  font-size: 25px;
+  padding: 5px 15px;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid #141414;
+  max-width: 400px;
+  width: 100%;
+}
+.monster-container .optionsSearch {
+  text-align: center;
+}
+.monster-container .allmonster {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+.monster-container .allmonster .card-monster {
+  margin: 10px;
+  width: 350px;
+  height: 400px;
+  font-size: 22px;
+  color: #e5e5e5;
+  background-color: rgba(20, 20, 20, 0.8196078431);
+  border-radius: 30px;
+  text-shadow: 0 0 10px #141414;
+}
+.monster-container .allmonster .card-monster h3 {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: underline;
+}
+.monster-container .allmonster .card-monster img {
+  width: 350px;
+  height: 350px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }/*# sourceMappingURL=style.css.map */
