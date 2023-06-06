@@ -318,7 +318,7 @@ const renderMonster = (ourMonsters, searchingText) => {
     // console.log(array);
 
     // Promazání pole výsledků 
-    // document.querySelector(".allmonster").innerHTML = ""
+    document.querySelector(".allmonster").innerHTML = ""
 
     // Výpis
     array.map( (oneMonster) => {
