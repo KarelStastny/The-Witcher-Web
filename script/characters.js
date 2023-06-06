@@ -51,7 +51,7 @@ characters.map( (oneCharacter) =>{
 
     // Vytvoření struktury
     card.innerHTML = `
-    <div class="card">
+    <div class="card-character">
     <img src="${oneCharacter.image}" alt="${oneCharacter.name}">
     <p>${oneCharacter.name}</p>
     </div>`

@@ -191,6 +191,64 @@ body{
 }
 
 /************************** Characters */
-.character-list .hide{
-    display: none;
+
+.container-character{
+    
+    min-height: 100vh;
+    .box-input{
+        text-align: center;
+        
+        
+    
+        .search-character{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            height: 40px;
+            font-size: 25px;
+            padding: 5px;
+            outline: none;
+            border-radius: $Radius-Small;
+            border: 1px solid $Color-Black;
+        }
+    
+    }
+
+    .character-list{
+        // margin-top: 60px;
+        @include standartFlex();
+        flex-wrap: wrap;
+    
+    
+    }
+    .character-list .hide{
+        display: none;
+    }
+    
+    .card-character{
+        background-color: $Color-Black;
+        box-shadow: 0 0 5px $Color-Red;
+        margin: 5px;
+        width: 300px;
+        height: 400px;
+    
+        img{
+            width: 300px;
+            height: 350px;
+            
+        }
+        p{
+            border-top: 1px solid $Color-Red;
+            line-height: 40px;
+            color: $Color-White;
+            text-align: center;
+            font-size: 22px;
+            letter-spacing: 1px;
+        }
+    }
 }
+
+
+
+
+
+
