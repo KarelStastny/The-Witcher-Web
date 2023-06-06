@@ -10,6 +10,54 @@ const monsters = [{
     id: 3,
     name: "Armor Edarachas",
     image: "../images/monsters/armoredarachas.png",
+},{
+    id: 4,
+    name: "Bear",
+    image: "../images/monsters/bear.png",
+},{
+    id: 5,
+    name: "Berserker",
+    image: "../images/monsters/berserker.png",
+},{
+    id: 6,
+    name: "Potracenka",
+    image: "../images/monsters/botchling.png",
+},{
+    id: 7,
+    name: "Bruxa",
+    image: "../images/monsters/bruxa.png",
+},{
+    id: 8,
+    name: "Caretaker",
+    image: "../images/monsters/caretaker.png",
+},{
+    id: 9,
+    name: "Cloud Giant",
+    image: "../images/monsters/cloud_giant.png",
+},{
+    id: 10,
+    name: "Crones",
+    image: "../images/monsters/crones.png",
+},{
+    id: 11,
+    name: "Cyclops",
+    image: "../images/monsters/cyclops.png",
+},{
+    id: 12,
+    name: "Dagonet",
+    image: "../images/monsters/dagonet.png",
+},{
+    id: 13,
+    name: "Dettlaff",
+    image: "../images/monsters/dettlaff_vampire.png",
+},{
+    id: 14,
+    name: "Devil by The Well",
+    image: "../images/monsters/devilbythewell.png",
+},{
+    id: 15,
+    name: "Drowner",
+    image: "../images/monsters/drowner.png",
 },
 ]
 
