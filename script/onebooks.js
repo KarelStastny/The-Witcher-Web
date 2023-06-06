@@ -121,11 +121,11 @@ let oneBook = () => {
                    <img src="${allBooks[number].image}">
                    <div class="details">
                        <h3>${allBooks[number].name}</h3>
-                       <p>Publikováno:${allBooks[number].publication}</p>
-                       <p>Autor:${allBooks[number].author}</p>
-                       <p>Počet Stran:${allBooks[number].pages}</p>
-                       <p>ISBN:${allBooks[number].ISBN}</p>
-                       <p>Jazyk:${allBooks[number].language}</p>
+                       <p>Publikováno :${allBooks[number].publication}</p>
+                       <p>Autor: ${allBooks[number].author}</p>
+                       <p>Počet Stran :${allBooks[number].pages}</p>
+                       <p>ISBN: ${allBooks[number].ISBN}</p>
+                       <p>Jazyk: ${allBooks[number].language}</p>
                        <a href="${allBooks[number].url}" target="_blank" rel="noopener noreferrer">Odkaz do obchodu</a>
                    </div>
                </div>
