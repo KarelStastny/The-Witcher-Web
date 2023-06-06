@@ -7,7 +7,7 @@
 }
 
 header{
-    background: url(../images/1.jpg);
+    background: url(../images/2.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -117,6 +117,12 @@ header{
 
 
 @media (max-width:900px){
+
+    header{
+        background: url(../images/1.jpg);
+        background-position: center;
+        background-size: cover;
+    }
     /* Navigace */
     .nav-menu{
         position: fixed;
