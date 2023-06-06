@@ -88,7 +88,7 @@ body {
 .container-book .oneBook a {
   display: block;
   text-align: center;
-  color: #e5e5e5;
+  color: blue;
   padding-top: 8px;
   height: 100%;
 }
@@ -135,7 +135,7 @@ body {
 }
 .containerPart .box .details a {
   text-decoration: underline;
-  color: #e50914;
+  color: blue;
 }
 .containerPart .description {
   color: #e5e5e5;
@@ -154,10 +154,12 @@ body {
   margin-bottom: 20px;
   height: 40px;
   font-size: 25px;
-  padding: 5px;
+  padding: 5px 15px;
   outline: none;
   border-radius: 10px;
   border: 1px solid #141414;
+  max-width: 400px;
+  width: 100%;
 }
 .container-character .character-list {
   display: flex;
@@ -171,7 +173,7 @@ body {
 }
 .container-character .card-character {
   background-color: #141414;
-  box-shadow: 0 0 5px #e50914;
+  box-shadow: 0 0 5px #141414;
   margin: 5px;
   width: 300px;
   height: 400px;
@@ -179,6 +181,8 @@ body {
 .container-character .card-character img {
   width: 300px;
   height: 350px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .container-character .card-character p {
   border-top: 1px solid #e50914;
@@ -187,4 +191,5 @@ body {
   text-align: center;
   font-size: 22px;
   letter-spacing: 1px;
+  text-shadow: 0 0 10px #e50914;
 }/*# sourceMappingURL=style.css.map */

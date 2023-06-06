@@ -225,10 +225,6 @@ let allCharacter = []
 characters.map( (oneCharacter) =>{
     let card = document.createElement("div")
 
-
-    
-
-
     // Vytvoření struktury
     card.innerHTML = `
     <div class="card-character">
@@ -237,14 +233,12 @@ characters.map( (oneCharacter) =>{
     </div>`
     console.log(oneCharacter);
 
-
     // Přidání do stránky a do nového pole
     listCharacter.appendChild(card)
     allCharacter.push(card)
 
-   
-
 })
+
 
 
 
@@ -259,11 +253,4 @@ charactersFilter = (inputText) => {
         }
     })
 }
-
-
-
-
-
-
-
 

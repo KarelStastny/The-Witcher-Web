@@ -12,6 +12,7 @@
     $Color-Black-Light: #141414d1;
     $Color-Red: #e50914;
     $Color-White: #e5e5e5;
+    $Color-Link: blue;
 // Radius
     $Radius-Big: 30px;
     $Radius-Cirkle:50%;
@@ -114,16 +115,14 @@ body{
             height: 50px;
             color: $Color-White;
             margin-top: 10px;
-
-
         }
 
         a{
             display: block;
             text-align: center;
-            color:  $Color-White;
+            color: $Color-Link;
             padding-top: 8px;
-        
+            
             height: 100%;
 
             
@@ -178,7 +177,7 @@ body{
 
             a{
                 text-decoration: underline;
-                color: $Color-Red;
+                color: $Color-Link;
             }
 
             
@@ -205,10 +204,12 @@ body{
             margin-bottom: 20px;
             height: 40px;
             font-size: 25px;
-            padding: 5px;
+            padding: 5px 15px;
             outline: none;
             border-radius: $Radius-Small;
             border: 1px solid $Color-Black;
+            max-width: 400px;
+            width: 100%
         }
     
     }
@@ -226,7 +227,7 @@ body{
     
     .card-character{
         background-color: $Color-Black;
-        box-shadow: 0 0 5px $Color-Red;
+        box-shadow: 0 0 5px $Color-Black;
         margin: 5px;
         width: 300px;
         height: 400px;
@@ -234,6 +235,7 @@ body{
         img{
             width: 300px;
             height: 350px;
+            object-fit: contain;
             
         }
         p{
@@ -243,6 +245,7 @@ body{
             text-align: center;
             font-size: 22px;
             letter-spacing: 1px;
+            text-shadow: 0 0 10px $Color-Red;
         }
     }
 }
