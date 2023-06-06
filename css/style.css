@@ -89,7 +89,7 @@ body {
 .container-book .oneBook a {
   display: block;
   text-align: center;
-  color: blue;
+  color: #007FFF;
   padding-top: 8px;
   height: 100%;
 }
@@ -136,7 +136,7 @@ body {
 }
 .containerPart .box .details a {
   text-decoration: underline;
-  color: blue;
+  color: #007FFF;
 }
 .containerPart .description {
   color: #e5e5e5;
