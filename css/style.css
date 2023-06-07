@@ -313,4 +313,17 @@ body {
   height: 350px;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.topArrow {
+  font-size: 20px;
+  border: 3px solid red;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  position: fixed;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  display: none;
 }/*# sourceMappingURL=style.css.map */
