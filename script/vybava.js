@@ -98,6 +98,96 @@ const vybava = [{
     name: "Axeman Boot", 
     category: "boots",
     image:"../images/vybava/axeman_boot.png"
+},{
+    id: 23,
+    name: "Axeman Gauntlet", 
+    category: "glowes",
+    image:"../images/vybava/axemen_gauntlets.png"
+},{
+    id: 24,
+    name: "Bath Towel", 
+    category: "trousers",
+    image:"../images/vybava/bath_towel.png"
+},{
+    id: 25,
+    name: "Beauclair Steel sword", 
+    category: "swords",
+    image:"../images/vybava/beauclair_steel_sword.png"
+},{
+    id: 26,
+    name: "Belhaven Brigan Dine", 
+    category: "armors",
+    image:"../images/vybava/Belhaven_brigandine.png"
+},{
+    id: 27,
+    name: "Blade from the bits", 
+    category: "swords",
+    image:"../images/vybava/blade_from_the_bits.png"
+},{
+    id: 28,
+    name: "Blade of ys", 
+    category: "swords",
+    image:"../images/vybava/blade_of_ys.png"
+},{
+    id: 29,
+    name: "Blave", 
+    category: "swords",
+    image:"../images/vybava/blave.png"
+},{
+    id: 30,
+    name: "Bleidd", 
+    category: "swords",
+    image:"../images/vybava/bleidd.png"
+},{
+    id: 31,
+    name: "Bounty hunter Gambeson", 
+    category: "armors",
+    image:"../images/vybava/Bounty_hunter_gambeson.png"
+},{
+    id: 32,
+    name: "Breath of the Nort", 
+    category: "swords",
+    image:"../images/vybava/breath_of_the_north.png"
+},{
+    id: 33,
+    name: "Bremervoord Blade", 
+    category: "swords",
+    image:"../images/vybava/bremervoord_blade.png"
+},{
+    id: 34,
+    name: "Campaigner Boot", 
+    category: "boots",
+    image:"../images/vybava/campaigner_boot.png"
+},{
+    id: 35,
+    name: "Cavalry Boot", 
+    category: "boots",
+    image:"../images/vybava/cavalry_boot.png"
+},{
+    id: 36,
+    name: "Cavarly Gauntlets", 
+    category: "glowes",
+    image:"../images/vybava/cavalry_gauntlets.png"
+},{
+    id: 37,
+    name: "Cavarly Trousers", 
+    category: "trousers",
+    image:"../images/vybava/cavalry_trousers.png"
+},{
+    id: 38,
+    name: "Cidarian Gambeson", 
+    category: "armors",
+    image:"../images/vybava/Cidarian_gambeson.png"
+},{
+    id: 39,
+    name: "Clan Hindar Sword", 
+    category: "swords",
+    image:"../images/vybava/clan_hindar_sword.png"
+},{
+    id: 40,
+    name: "Crossbow Feline", 
+    category: "crossbows",
+    image:"../images/vybava/crossbow_feline.png"
 },
 ]
 
