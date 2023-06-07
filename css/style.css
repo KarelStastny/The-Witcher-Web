@@ -195,4 +195,7 @@ body {
   text-shadow: 0 0 10px #e50914;
 }
 
-/************************** Výbava *//*# sourceMappingURL=style.css.map */
+/************************** Výbava */
+.hide-card-vybava {
+  display: none;
+}/*# sourceMappingURL=style.css.map */

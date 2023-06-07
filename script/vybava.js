@@ -31,7 +31,7 @@ const vybava = [{
 },
 ]
 
-
+// Výpis všech věcí z výbavy do stránky
 for (let x of vybava){
     // console.log(x);
     // Vytvoří div a přidá do něj clássy pro filtrování
@@ -59,3 +59,48 @@ for (let x of vybava){
     document.querySelector(".list-vybavy").appendChild(card)
     
 }
+
+
+// Funkce pro filtrování 
+const filter = (value) => {
+    // označení všech buttons
+    let buttons = document.querySelectorAll(".button-value")
+
+        buttons.forEach( (oneButton) => {
+        // Rozlišení na jaké tlačítko se klikno
+            // Porovná Hodnotu poslanou do funkce z HTML s názevem button
+            if(value.toLowerCase() == oneButton.innerText.toLowerCase()){
+                // Pokud se rovná přidána classa 
+                oneButton.classList.add("activeBtn")
+            }else{
+                oneButton.classList.remove("activeBtn")
+            }
+        })
+
+
+        // Filter jednotlivých karet
+            // Nalezení všech karet
+            let cards = document.querySelectorAll(".card")
+
+            cards.forEach( (oneCard) => {
+                // Zobrazení všech karet na Button All
+                if(value == 'all'){
+                    oneCard.classList.remove("hide-card-vybava")
+                }
+
+                
+                // Zobrazení podle typu hodnoty
+                // Pokud karta obsahuje hodnotu:
+                if(oneCard.classList.contains(value)){
+                    // Zruš skrytí
+                    oneCard.classList.remove("hide-card-vybava")
+                }else{
+                    // Přidej skrytí
+                    oneCard.classList.add("hide-card-vybava")
+                }
+                
+            })
+}
+
+
+
