@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Style all Header -->
-    <link rel="stylesheet" href="./css/main-header.css">
+    <link rel="stylesheet" href="../css/other-page-header.css">
+    <!-- Body style all pages -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Lightbox GAllery -->
+    <link rel="stylesheet" href="../css/lightbox.min.css">
 
-    <title>The Witcher fan club </title>
+    <title>The Witcher fan club - Monster </title>
 </head>
 <body>
 
@@ -15,7 +19,7 @@
     <div class="nav-container">
         <nav class="navbar">
 
-            <a href="#" class="logo">The Witcher</a>
+            <a href="../index.html" class="logo">The Witcher</a>
 
 
             <ul class="nav-menu">
@@ -23,11 +27,11 @@
                 
                     <!-- Rozbalovací menu -->
                     <ul>
-                        <li><a href="./pages/wallpapers.html">Wallpapers</a></li>
-                        <li><a href="./pages/monster.html">Monstra</a></li>
-                        <li><a href="./pages/characters.html">Postavy</a></li>
-                        <li><a href="./pages/vybava.html">Výbava</a></li>
+                        <li><a href="#">Wallpapers</a></li>
+                        <li><a href="#">Monstra</a></li>
+                        <li><a href="#">Postavy</a></li>
                     </ul>
+
                 </li>
 
                 
@@ -54,7 +58,7 @@
                     </ul>
                 </li>
 
-                <li><a href="./pages/books.html">Knihy</a></li>
+                <li><a href="books.html">Knihy</a></li>
                 <li><a href="#">O hře</a></li>
                 <li><a href="#">Studio</a></li>
             </ul>
@@ -64,22 +68,33 @@
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
-
-
-
-
         </nav>
     </div>
 
-    <div class="hedding">
-        <p class="heddingText"> </p>
-        <p class="heddingText2"></p>
-       
-
-
-    </div>
 </header>
 
-    <script src="./script/script.js"></script>
+<div class="monster-container">
+    <div class="searchBoxMonster">
+        <input class="monsterInput" type="text">
+    </div>
+
+    <div class="optionsSearch"></div>
+
+
+
+    <div class="allmonster">
+        <!-- <div class="card-monster">
+            <h3>Name</h3>
+            <a href="../images/Light_box-gallery/000.jpg" data-lightbox="mygallery" data-title="Wallpapers-1"><img src="../images/Light_box-gallery/000.jpg" alt=""></a>
+        </div> -->
+    </div>
+</div>
+
+
+
+
+
+<script src="../script/monsters.js"></script>
+<script src="../script/lightbox-plus-jquery.min.js"></script>
 </body>
 </html>
