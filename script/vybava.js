@@ -9,16 +9,6 @@ const vybava = [{
     category: "boots",
     image:"../images/vybava/Alder_Folk_boots.png"
 },{
-    id: 3,
-    name: "Angrenian", 
-    category: "armors",
-    image:"../images/vybava/Angrenian_cuirass.png"
-},{
-    id: 4,
-    name: "Asassins Gauntents", 
-    category: "gloves",
-    image:"../images/vybava/assassin_gauntlets.png"
-},{
     id: 5,
     name: "Axemans Trousers", 
     category: "trousers",
@@ -28,6 +18,86 @@ const vybava = [{
     name: "Crossbow", 
     category: "crossbows",
     image:"../images/vybava/crossbow.png"
+},{
+    id: 7,
+    name: "Adversary", 
+    category: "swords",
+    image:"../images/vybava/adversary.png"
+},{
+    id: 8,
+    name: "Aerondlight", 
+    category: "swords",
+    image:"../images/vybava/aerondight.png"
+},{
+    id: 9,
+    name: "Ami", 
+    category: "swords",
+    image:"../images/vybava/ami.png"
+},{
+    id: 10,
+    name: "Anathema", 
+    category: "swords",
+    image:"../images/vybava/anathema.png"
+},{
+    id: 11,
+    name: "Anferthe", 
+    category: "swords",
+    image:"../images/vybava/anferthe.png"
+},{
+    id: 12,
+    name: "Angivare", 
+    category: "swords",
+    image:"../images/vybava/angivare.png"
+},{
+    id: 13,
+    name: "Angrenian Cuirass", 
+    category: "armors",
+    image:"../images/vybava/Angrenian_cuirass.png"
+},{
+    id: 14,
+    name: "Anth", 
+    category: "swords",
+    image:"../images/vybava/anth.png"
+},{
+    id: 15,
+    name: "Arbitrator", 
+    category: "swords",
+    image:"../images/vybava/arbitrator.png"
+},{
+    id: 16,
+    name: "Ard Skellige Aketon", 
+    category: "armors",
+    image:"../images/vybava/Ard_Skellige_aketon.png"
+},{
+    id: 17,
+    name: "Ardaenye", 
+    category: "swords",
+    image:"../images/vybava/ardaenye.png"
+},{
+    id: 18,
+    name: "Ashrune", 
+    category: "swords",
+    image:"../images/vybava/ashrune.png"
+},{
+    id: 19,
+    name: "Assassins Gauntlets", 
+    category: "gloves",
+    image:"../images/vybava/assassin_gauntlets.png"
+},{
+    id: 20,
+    name: "Assassins Trousers", 
+    category: "trousers",
+    image:"../images/vybava/assassins_trousers.png"
+},{
+    id: 21,
+    name: "Assault Gauntlets", 
+    category: "gloves",
+    image:"../images/vybava/assault-gauntlets.png"
+},{
+    id: 22,
+    name: "Axeman Boot", 
+    category: "boots",
+    image:"../images/vybava/axeman_boot.png"
 },
 ]
 
