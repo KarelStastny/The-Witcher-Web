@@ -30,3 +30,32 @@ const vybava = [{
     image:"../images/vybava/crossbow.png"
 },
 ]
+
+
+for (let x of vybava){
+    // console.log(x);
+    // Vytvoří div a přidá do něj clássy pro filtrování
+    let card = document.createElement("div")
+        card.classList.add("card", x.category, "hide")
+      
+
+    // Container na obrázek + classa
+    let imageCont = document.createElement("div")
+        imageCont.classList.add("image-container")
+        
+    // Vytvoří obrázek, do SRC vloží cestu k obrázku, přidá do containeru a do card
+    let image = document.createElement("img")
+        image.setAttribute("src", x.image)
+        imageCont.appendChild(image)
+        card.appendChild(imageCont)
+
+    //Vytvoří název výbavy + classa + natažení dat + přidání do containeru
+    let name = document.createElement("h3")    
+        name.classList.add("nameVybava")
+        name.innerText = x.name
+        card.appendChild(name)
+    
+    // Výpis do stránky 
+    document.querySelector(".list-vybavy").appendChild(card)
+    
+}
