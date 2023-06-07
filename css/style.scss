@@ -370,6 +370,59 @@ body{
     
 }
 
+// Page Game
+
+.containerGame{
+    background-color: $Color-Black-Light;
+    h1{
+        text-align: center;
+        color: $Color-White;
+        font-size: 60px;
+        padding: 30px;
+
+
+    }
+    .containerGameSection{
+        @include RowPage();
+        @include standartFlex();
+        margin: 20px auto;
+        padding: 20px;
+
+        .gameImages{
+            width: 50%;
+            text-align: center;
+            img{
+                max-width: 600px;
+                width: 100%;
+                transform: rotate(-2deg);
+                transition: 0.8s;
+                border-radius: $Radius-Small;
+
+                &:hover{
+                    scale: 1.1;
+                }
+            }
+        }
+        .descriptionGame{
+            width: 50%;
+            h2{
+                color: $Color-White;
+                text-align: center;
+                margin: 10px;
+                @include Underline();
+                padding-bottom: 5px;
+                font-size: 35px;
+            }
+
+            p{
+                color: $Color-White;
+                margin: 20px;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
 
 
 
@@ -385,7 +438,31 @@ body{
     width: 75px;
     height: 75px;
     border-radius: $Radius-Cirkle;
-
     display: none;
 
+
+
 }
+@media only screen and (max-width: 1100px) {
+    .containerGame{
+        background-color: $Color-Black-Light;
+        h1{
+            text-align: center;
+            color: $Color-White;
+            font-size: 60px;
+            padding: 30px;
+    
+    
+        }
+        .containerGameSection{
+            flex-direction: column;
+    
+            .gameImages{
+                width: 100%;
+            
+            .descriptionGame{
+                width: 100%;
+              
+            }
+        }
+    }}}
