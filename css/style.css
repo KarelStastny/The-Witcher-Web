@@ -229,6 +229,9 @@ body {
   text-shadow: 0 0 10px #e50914;
 }
 .container-vybava .list-vybavy {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -164,4 +164,7 @@ const filter = (value) => {
 }
 
 
-
+// Při otevření okna zobrazit všechnu výbavu
+window.onload = () => {
+    filter("all")
+}

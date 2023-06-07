@@ -265,6 +265,7 @@ body{
 /************************** Výbava */
 .container-vybava{
     min-height: 100%;
+   
 
     .searchVybava{
         height: 100px;
@@ -291,6 +292,7 @@ body{
     }
 
     .list-vybavy{
+        @include RowPage();
         @include standartFlex();
         flex-wrap: wrap;
         margin-top: 20px;
