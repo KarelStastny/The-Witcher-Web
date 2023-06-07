@@ -39,7 +39,7 @@ for (let x of vybava){
         card.classList.add("card-vybava", x.category, "all", "hide-card-vybava" )
 
         card.innerHTML = `
-        <a href="${x.image}" data-lightbox="mygallery" data-title="Wallpapers-1"><img src="${x.image}" alt=""></a>
+        <a href="${x.image}" data-lightbox="mygallery" data-title="${x.name}"><img src="${x.image}" alt=""></a>
         <h3>${x.name}</h3>
         `
 
