@@ -256,4 +256,11 @@ body{
     display: none;
 }
 
+.activeBtn{
+    background-color: #007FFF;
+}
+
+.button-value:target{
+    background-color: #007FFF;
+}
 

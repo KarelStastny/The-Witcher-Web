@@ -1,7 +1,7 @@
 const vybava = [{
     id: 1,
     name: "Addan Deith", 
-    category: "sword",
+    category: "swords",
     image:"../images/vybava/addan_deith.png"
 },{
     id: 2,
@@ -11,7 +11,7 @@ const vybava = [{
 },{
     id: 3,
     name: "Angrenian", 
-    category: "armor",
+    category: "armors",
     image:"../images/vybava/Angrenian_cuirass.png"
 },{
     id: 4,
@@ -26,38 +26,25 @@ const vybava = [{
 },{
     id: 6,
     name: "Crossbow", 
-    category: "crossbow",
+    category: "crossbows",
     image:"../images/vybava/crossbow.png"
 },
 ]
 
 // Výpis všech věcí z výbavy do stránky
 for (let x of vybava){
-    // console.log(x);
-    // Vytvoří div a přidá do něj clássy pro filtrování
+
     let card = document.createElement("div")
-        card.classList.add("card", x.category, "hide")
-      
+        // Přidány classy pro možnosti filtrování
+        card.classList.add("card-vybava", x.category, "all", "hide-card-vybava" )
 
-    // Container na obrázek + classa
-    let imageCont = document.createElement("div")
-        imageCont.classList.add("image-container")
-        
-    // Vytvoří obrázek, do SRC vloží cestu k obrázku, přidá do containeru a do card
-    let image = document.createElement("img")
-        image.setAttribute("src", x.image)
-        imageCont.appendChild(image)
-        card.appendChild(imageCont)
+        card.innerHTML = `
+        <a href="${x.image}" data-lightbox="mygallery" data-title="Wallpapers-1"><img src="${x.image}" alt=""></a>
+        <h3>${x.name}</h3>
+        `
 
-    //Vytvoří název výbavy + classa + natažení dat + přidání do containeru
-    let name = document.createElement("h3")    
-        name.classList.add("nameVybava")
-        name.innerText = x.name
-        card.appendChild(name)
-    
-    // Výpis do stránky 
-    document.querySelector(".list-vybavy").appendChild(card)
-    
+        // Výpis do stránky 
+        document.querySelector(".list-vybavy").appendChild(card)
 }
 
 
@@ -66,9 +53,13 @@ const filter = (value) => {
     // označení všech buttons
     let buttons = document.querySelectorAll(".button-value")
 
+    // Zjištění na jaké tlačítko je kliknuto kvůli vzhledu
         buttons.forEach( (oneButton) => {
         // Rozlišení na jaké tlačítko se klikno
             // Porovná Hodnotu poslanou do funkce z HTML s názevem button
+            console.log(value.toLowerCase());
+            console.log(oneButton.innerText.toLowerCase());
+
             if(value.toLowerCase() == oneButton.innerText.toLowerCase()){
                 // Pokud se rovná přidána classa 
                 oneButton.classList.add("activeBtn")
@@ -80,7 +71,7 @@ const filter = (value) => {
 
         // Filter jednotlivých karet
             // Nalezení všech karet
-            let cards = document.querySelectorAll(".card")
+            let cards = document.querySelectorAll(".card-vybava")
 
             cards.forEach( (oneCard) => {
                 // Zobrazení všech karet na Button All
@@ -88,7 +79,7 @@ const filter = (value) => {
                     oneCard.classList.remove("hide-card-vybava")
                 }
 
-                
+
                 // Zobrazení podle typu hodnoty
                 // Pokud karta obsahuje hodnotu:
                 if(oneCard.classList.contains(value)){
