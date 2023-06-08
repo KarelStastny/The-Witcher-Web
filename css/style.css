@@ -373,6 +373,10 @@ body {
   font-size: 18px;
 }
 
+.body-serial {
+  background-color: #181818;
+}
+
 .serial-container {
   background-color: #181818;
   color: #e5e5e5;
@@ -393,13 +397,12 @@ body {
   padding: 10px;
 }
 .container-description .hedding-serial {
+  text-align: center;
   width: 50%;
-  position: relative;
 }
 .container-description .hedding-serial h1 {
   color: #ffffff;
   position: sticky;
-  text-align: center;
 }
 .container-description .serial-description {
   padding: 10px;

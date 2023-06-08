@@ -432,13 +432,16 @@ body{
 
 
 // Page Serials all
+.body-serial{
+    background-color: $Color-Black2;
+}
 
 .serial-container{
     background-color: $Color-Black2;
     color: $Color-White;
     padding-top: 60px;
 
-
+  
 }
 
 .container-description{
@@ -448,16 +451,17 @@ body{
     justify-content: space-around;
     box-shadow: 0 0 10px $Color-White;
     padding: 10px;
+    
 
 
     .hedding-serial{
-
+        text-align: center;
         width: 50%;
-        position: relative;
+        
         h1{
             color: $Color-White-Only;
             position: sticky;
-            text-align: center;
+            
         }
     }
     .serial-description{
@@ -471,8 +475,6 @@ body{
         p{
             padding-left: 10px;
             text-align: justify;
-
-            
         }
     }
 }
