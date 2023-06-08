@@ -495,6 +495,14 @@ body {
   padding: 10px;
 }
 
+footer {
+  background-color: #141414;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: #e5e5e5;
+}
+
 .topArrow {
   font-size: 20px;
   border: 3px solid red;
