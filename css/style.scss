@@ -13,6 +13,8 @@
     $Color-Red: #e50914;
     $Color-White: #e5e5e5;
     $Color-Link: #007FFF;
+    $Color-Black2: #181818;
+    $Color-White-Only: #ffffff;
 // Radius
     $Radius-Big: 30px;
     $Radius-Cirkle:50%;
@@ -117,10 +119,15 @@ body{
         border-radius: $Radius-Big;
         width: 300px;
         height: 550px;
-        margin: 10px;
+        margin: 15px;
         overflow: hidden;
         background-color: $Color-Black;
+        transition: all 0.3s;
 
+        &:hover{
+            transform: scale(1.05);
+        }
+        
         img{
             border-top-left-radius: $Radius-Big;
             border-top-right-radius: $Radius-Big;
@@ -424,6 +431,116 @@ body{
 }
 
 
+// Page Serials all
+
+.serial-container{
+    background-color: $Color-Black2;
+    color: $Color-White;
+    padding-top: 60px;
+
+
+}
+
+.container-description{
+    @include RowPage();
+    max-width: 1000px;
+    @include standartFlex();
+    justify-content: space-around;
+    box-shadow: 0 0 10px $Color-White;
+    padding: 10px;
+
+
+    .hedding-serial{
+
+        width: 50%;
+        position: relative;
+        h1{
+            color: $Color-White-Only;
+            position: sticky;
+            text-align: center;
+        }
+    }
+    .serial-description{
+        padding: 10px;
+        width: 50%;
+        h2{
+            color: $Color-White-Only;
+            margin: 10px 0;
+
+        }
+        p{
+            padding-left: 10px;
+            text-align: justify;
+
+            
+        }
+    }
+}
+
+.hedding-dily{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+
+}
+
+.serial-parts{
+    @include RowPage();
+    @include standartFlex();
+    flex-wrap: wrap;
+
+    .card-serial{
+        max-width: 400px;
+        width: 100%;
+        height: 400px;
+
+        margin: 10px;
+   
+
+        img{
+            object-fit: cover;
+            height: 250px;
+            width: 100%;
+
+        }
+        .small-hedding{
+            @include FlexSpaceBetween();
+            padding: 9px;
+        
+            h2{
+                color: $Color-White-Only;
+            }
+
+        }
+        p{
+            padding: 9px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -465,4 +582,25 @@ body{
               
             }
         }
-    }}}
+    }}
+
+
+// Page Serials all
+
+.container-description{
+    flex-direction: column;
+
+    .hedding-serial{
+        width: 100%;
+    }
+    .serial-description{
+        width: 100%;
+
+    }
+}
+
+}
+
+
+
+

@@ -68,9 +68,13 @@ body {
   border-radius: 30px;
   width: 300px;
   height: 550px;
-  margin: 10px;
+  margin: 15px;
   overflow: hidden;
   background-color: #141414;
+  transition: all 0.3s;
+}
+.container-book .oneBook:hover {
+  transform: scale(1.05);
 }
 .container-book .oneBook img {
   border-top-left-radius: 30px;
@@ -369,6 +373,89 @@ body {
   font-size: 18px;
 }
 
+.serial-container {
+  background-color: #181818;
+  color: #e5e5e5;
+  padding-top: 60px;
+}
+
+.container-description {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  box-shadow: 0 0 10px #e5e5e5;
+  padding: 10px;
+}
+.container-description .hedding-serial {
+  width: 50%;
+  position: relative;
+}
+.container-description .hedding-serial h1 {
+  color: #ffffff;
+  position: sticky;
+  text-align: center;
+}
+.container-description .serial-description {
+  padding: 10px;
+  width: 50%;
+}
+.container-description .serial-description h2 {
+  color: #ffffff;
+  margin: 10px 0;
+}
+.container-description .serial-description p {
+  padding-left: 10px;
+  text-align: justify;
+}
+
+.hedding-dily {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 40px;
+}
+
+.serial-parts {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.serial-parts .card-serial {
+  max-width: 400px;
+  width: 100%;
+  height: 400px;
+  margin: 10px;
+}
+.serial-parts .card-serial img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 250px;
+  width: 100%;
+}
+.serial-parts .card-serial .small-hedding {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 9px;
+}
+.serial-parts .card-serial .small-hedding h2 {
+  color: #ffffff;
+}
+.serial-parts .card-serial p {
+  padding: 9px;
+}
+
 .topArrow {
   font-size: 20px;
   border: 3px solid red;
@@ -399,6 +486,15 @@ body {
     width: 100%;
   }
   .containerGame .containerGameSection .gameImages .descriptionGame {
+    width: 100%;
+  }
+  .container-description {
+    flex-direction: column;
+  }
+  .container-description .hedding-serial {
+    width: 100%;
+  }
+  .container-description .serial-description {
     width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
