@@ -520,6 +520,44 @@ body{
     }
 }
 
+// Index page
+.index-main{
+    background-color: $Color-Black2;
+}
+
+.index-container{
+    @include RowPage();
+    max-width: 1200px;
+    padding-top: 60px;
+
+    .index-container{
+        text-align: center;
+        h2{
+            @include OtherPageHeddingH2();
+            color: $Color-White-Only;
+
+
+        }
+        img{
+            max-width: 700px;
+            width: 100%;
+            margin: 30px auto;
+        }
+        p{
+            color: $Color-White-Only;
+            font-size: 20px;
+            letter-spacing: 1px;
+            word-spacing: 8px;
+            font-style: italic;
+            text-align: justify;
+            padding: 10px;
+        }
+
+    }
+
+
+    
+}
 
 
 
