@@ -11,6 +11,7 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
 }
 
 .nav-container{
@@ -62,21 +63,25 @@ header{
     background-color: #141414d1;
     display: none;
     left: 0;
+
 }
 
 .nav-menu li:hover > ul{
     display: initial;
+
 }
 
 .nav-menu li ul li {
     height: 50px;
     width: 150px;
     text-align: center;
+
 }
 
 .nav-menu li ul li a {
     line-height: 50px;
     font-size: 18px;
+
 }
 
 .logo{
@@ -112,13 +117,14 @@ header{
     font-size: 60px;
     text-shadow: 0 0 10px #e50914;
 
+
 }
 
 
 @media (max-width:900px){
     /* Navigace */
     .nav-menu{
-        position: fixed;
+        position: absolute;
         gap: 0;
         flex-direction: column;
         top: 80px;
@@ -127,6 +133,7 @@ header{
         text-align: center;
         transition: left 0.7s;
         left: -100%;
+        z-index: 10000;
     }
 
     /* Hamburger toggle */

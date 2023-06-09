@@ -271,7 +271,7 @@ body{
 
 /************************** Výbava */
 .container-vybava{
-    min-height: 100%;
+    min-height: 90vh;
    
 
     .searchVybava{
@@ -331,6 +331,7 @@ body{
 /************************** Monster */
 .monster-container{
     @include RowPage();
+    min-height: 90vh;
 
     .searchBoxMonster{
         text-align: center;
@@ -379,6 +380,8 @@ body{
 
 // Page Game
 
+
+// Game container
 .containerGame{
     background-color: $Color-Black-Light;
     h1{
@@ -404,6 +407,7 @@ body{
                 transform: rotate(-2deg);
                 transition: 0.8s;
                 border-radius: $Radius-Small;
+           
 
                 &:hover{
                     scale: 1.1;
@@ -542,6 +546,7 @@ body{
             max-width: 700px;
             width: 100%;
             margin: 30px auto;
+            animation: I1 2s;
         }
         p{
             color: $Color-White-Only;
@@ -551,6 +556,9 @@ body{
             font-style: italic;
             text-align: justify;
             padding: 10px;
+            animation: A1 2s;
+            
+
         }
 
     }
@@ -609,6 +617,31 @@ footer{
 
 
 }
+// Animation
+
+@keyframes A1 {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes I1{
+    0%{
+        transform: scale(0.0);
+    }
+
+    100%{
+
+    }
+}
+
+
+
+// Media Query
 @media only screen and (max-width: 1100px) {
     .containerGame{
         background-color: $Color-Black-Light;
@@ -626,12 +659,23 @@ footer{
             .gameImages{
                 width: 100%;
             
-            .descriptionGame{
-                width: 100%;
-              
-            }
+            
         }
     }}
+
+    .descriptionGame{
+        width: 100%;
+
+        border: 3px solid red;
+        color: black;
+
+        p{
+            // width: 100%;
+            // color: black;
+        }
+
+      
+    }
 
 
 // Page Serials all

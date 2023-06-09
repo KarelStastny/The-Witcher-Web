@@ -204,7 +204,7 @@ body {
 
 /************************** Výbava */
 .container-vybava {
-  min-height: 100%;
+  min-height: 90vh;
 }
 .container-vybava .searchVybava {
   height: 100px;
@@ -269,6 +269,7 @@ body {
   max-width: 1600px;
   width: 100%;
   margin: 0 auto;
+  min-height: 90vh;
 }
 .monster-container .searchBoxMonster {
   text-align: center;
@@ -484,6 +485,7 @@ body {
   max-width: 700px;
   width: 100%;
   margin: 30px auto;
+  animation: I1 2s;
 }
 .index-container .index-container p {
   color: #ffffff;
@@ -493,6 +495,7 @@ body {
   font-style: italic;
   text-align: justify;
   padding: 10px;
+  animation: A1 2s;
 }
 
 footer {
@@ -516,6 +519,19 @@ footer {
   display: none;
 }
 
+@keyframes A1 {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes I1 {
+  0% {
+    transform: scale(0);
+  }
+}
 @media only screen and (max-width: 1100px) {
   .containerGame {
     background-color: rgba(20, 20, 20, 0.8196078431);
@@ -532,8 +548,10 @@ footer {
   .containerGame .containerGameSection .gameImages {
     width: 100%;
   }
-  .containerGame .containerGameSection .gameImages .descriptionGame {
+  .descriptionGame {
     width: 100%;
+    border: 3px solid red;
+    color: black;
   }
   .container-description {
     flex-direction: column;
