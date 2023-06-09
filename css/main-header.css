@@ -125,7 +125,7 @@ header{
     }
     /* Navigace */
     .nav-menu{
-        position: fixed;
+        position: absolute;
         gap: 0;
         flex-direction: column;
         top: 80px;

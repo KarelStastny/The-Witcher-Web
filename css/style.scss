@@ -643,39 +643,32 @@ footer{
 
 // Media Query
 @media only screen and (max-width: 1100px) {
-    .containerGame{
-        background-color: $Color-Black-Light;
-        h1{
-            text-align: center;
-            color: $Color-White;
-            font-size: 60px;
-            padding: 30px;
-    
-    
+
+ // Game container
+.containerGame{
+
+    .containerGameSection{
+
+        flex-direction: column;
+
+        .gameImages{
+            width: 100%;
+
+
+            }
         }
-        .containerGameSection{
-            flex-direction: column;
-    
-            .gameImages{
-                width: 100%;
-            
-            
+        .descriptionGame{
+            width: 100%;
+            h2{
+  
+            }
+
+            p{
+ 
+            }
         }
-    }}
-
-    .descriptionGame{
-        width: 100%;
-
-        border: 3px solid red;
-        color: black;
-
-        p{
-            // width: 100%;
-            // color: black;
-        }
-
-      
     }
+}
 
 
 // Page Serials all
