@@ -217,6 +217,11 @@ body{
     }
 }
 
+.part{
+   min-height: 83vh
+
+}
+
 /************************** Characters */
 
 .container-character{
@@ -395,7 +400,7 @@ body{
     .containerGameSection{
         @include RowPage();
         @include standartFlex();
-        margin: 20px auto;
+        margin: 0 auto;
         padding: 20px;
 
         .gameImages{
@@ -407,6 +412,7 @@ body{
                 transform: rotate(-2deg);
                 transition: 0.8s;
                 border-radius: $Radius-Small;
+                animation: I1 2s;
            
 
                 &:hover{
@@ -429,6 +435,7 @@ body{
                 color: $Color-White;
                 margin: 20px;
                 font-size: 18px;
+   
             }
         }
     }
@@ -438,14 +445,13 @@ body{
 // Page Serials all
 .body-serial{
     background-color: $Color-Black2;
+    min-height: 100vh;
 }
 
 .serial-container{
     background-color: $Color-Black2;
     color: $Color-White;
     padding-top: 60px;
-
-  
 }
 
 .container-description{
@@ -455,25 +461,50 @@ body{
     justify-content: space-around;
     box-shadow: 0 0 10px $Color-White;
     padding: 10px;
+    margin: 20px auto;
+ 
+
     
 
 
     .hedding-serial{
         text-align: center;
         width: 50%;
+   
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+ 
+
         
-        h1{
+        h2{
             color: $Color-White-Only;
-            position: sticky;
+            padding: 30px;
+            font-size: 30px;
+            text-decoration: underline 2px;
+       
+ 
             
+        }
+
+        .ornament{
+            
+
+            img{
+                width: 100%;
+                animation: ornament 2s infinite  alternate-reverse;
+            }
         }
     }
     .serial-description{
         padding: 10px;
         width: 50%;
+        margin: 10px;
         h2{
             color: $Color-White-Only;
             margin: 10px 0;
+            border-bottom: 1px solid $Color-White;
 
         }
         p{
@@ -490,10 +521,13 @@ body{
 
 }
 
+// Jednotlivé stránky
 .serial-parts{
     @include RowPage();
     @include standartFlex();
     flex-wrap: wrap;
+
+
 
     .card-serial{
         max-width: 400px;
@@ -539,6 +573,7 @@ body{
         h2{
             @include OtherPageHeddingH2();
             color: $Color-White-Only;
+            
 
 
         }
@@ -635,9 +670,24 @@ footer{
     }
 
     100%{
-
+        transform: scale(1.0);
     }
 }
+
+@keyframes ornament{
+    0%{
+        transform: rotate(-15deg) scale(0.55) ;
+   
+    }
+
+    100%{
+        transform: rotate(15deg) scale(1.0) ;
+ 
+       
+    }
+}
+
+
 
 
 
@@ -668,7 +718,7 @@ footer{
             }
         }
     }
-}
+
 
 
 // Page Serials all

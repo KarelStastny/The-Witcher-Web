@@ -147,6 +147,10 @@ body {
   padding: 20px;
 }
 
+.part {
+  min-height: 83vh;
+}
+
 /************************** Characters */
 .container-character {
   max-width: 1600px;
@@ -337,7 +341,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  margin: 20px auto;
+  margin: 0 auto;
   padding: 20px;
 }
 .containerGame .containerGameSection .gameImages {
@@ -350,6 +354,7 @@ body {
   transform: rotate(-2deg);
   transition: 0.8s;
   border-radius: 10px;
+  animation: I1 2s;
 }
 .containerGame .containerGameSection .gameImages img:hover {
   scale: 1.1;
@@ -376,6 +381,7 @@ body {
 
 .body-serial {
   background-color: #181818;
+  min-height: 100vh;
 }
 
 .serial-container {
@@ -396,22 +402,36 @@ body {
   justify-content: space-around;
   box-shadow: 0 0 10px #e5e5e5;
   padding: 10px;
+  margin: 20px auto;
 }
 .container-description .hedding-serial {
   text-align: center;
   width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
 }
-.container-description .hedding-serial h1 {
+.container-description .hedding-serial h2 {
   color: #ffffff;
-  position: sticky;
+  padding: 30px;
+  font-size: 30px;
+  -webkit-text-decoration: underline 2px;
+          text-decoration: underline 2px;
+}
+.container-description .hedding-serial .ornament img {
+  width: 100%;
+  animation: ornament 2s infinite alternate-reverse;
 }
 .container-description .serial-description {
   padding: 10px;
   width: 50%;
+  margin: 10px;
 }
 .container-description .serial-description h2 {
   color: #ffffff;
   margin: 10px 0;
+  border-bottom: 1px solid #e5e5e5;
 }
 .container-description .serial-description p {
   padding-left: 10px;
@@ -531,6 +551,17 @@ footer {
   0% {
     transform: scale(0);
   }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes ornament {
+  0% {
+    transform: rotate(-15deg) scale(0.55);
+  }
+  100% {
+    transform: rotate(15deg) scale(1);
+  }
 }
 @media only screen and (max-width: 1100px) {
   .containerGame .containerGameSection {
@@ -539,34 +570,8 @@ footer {
   .containerGame .containerGameSection .gameImages {
     width: 100%;
   }
-  .containerGame .containerGameSection .gameImages img {
-    max-width: 600px;
+  .containerGame .descriptionGame {
     width: 100%;
-    transform: rotate(-2deg);
-    transition: 0.8s;
-    border-radius: 10px;
-  }
-  .containerGame .containerGameSection .gameImages img:hover {
-    scale: 1.1;
-  }
-  .containerGame .containerGameSection .descriptionGame {
-    width: 100%;
-  }
-  .containerGame .containerGameSection .descriptionGame h2 {
-    color: #e5e5e5;
-    text-align: center;
-    margin: 10px;
-    border-bottom: 4px solid #e50914;
-    border-radius: 5px;
-    transition: all 0.2s;
-    text-shadow: 0 0 10px #e50914;
-    padding-bottom: 5px;
-    font-size: 35px;
-  }
-  .containerGame .containerGameSection .descriptionGame p {
-    color: #e5e5e5;
-    margin: 20px;
-    font-size: 18px;
   }
   .container-description {
     flex-direction: column;
