@@ -188,6 +188,167 @@ const vybava = [{
     name: "Crossbow Feline", 
     category: "crossbows",
     image:"../images/vybava/crossbow_feline.png"
+},{
+    id: 41,
+    name: "Crossbow Feline Iegend", 
+    category: "crossbows",
+    image:"../images/vybava/crossbow_feline_legend.png"
+},{
+    id: 42,
+    name: "Crossbow Geralt", 
+    category: "crossbows",
+    image:"../images/vybava/crossbow_geralt.png"
+},{
+    id: 43,
+    name: "Crossbow Magic", 
+    category: "crossbows",
+    image:"../images/vybava/crossbow_magic.png"
+},
+{
+    id: 44,
+    name: "Crossbow Master", 
+    category: "crossbows",
+    image:"../images/vybava/crossbow_master.png"
+},{
+    id: 45,
+    name: "Crossbow Ravix", 
+    category: "crossbows",
+    image:"../images/vybava/crossbow_ravix.png"
+},{
+    id: 46,
+    name: "Crossbow Relic", 
+    category: "crossbows",
+    image:"../images/vybava/crossbow_relic.png"
+},{
+    id: 47,
+    name: "Crossbow Skellig", 
+    category: "crossbows",
+    image:"../images/vybava/crossbow_skellige.png"
+},{
+    id: 48,
+    name: "Crossbow Toussani", 
+    category: "crossbows",
+    image:"../images/vybava/crossbow_toussaint.png"
+},{
+    id: 49,
+    name: "Crossbow Ursine", 
+    category: "crossbows",
+    image:"../images/vybava/crossbow_ursine.png"
+},{
+    id: 50,
+    name: "Death from Above", 
+    category: "crossbows",
+    image:"../images/vybava/death_from_above.png"
+},{
+    id: 51,
+    name: "Disglair", 
+    category: "swords",
+    image:"../images/vybava/disglair.png"
+},{
+    id: 52,
+    name: "Dorian Sword", 
+    category: "swords",
+    image:"../images/vybava/dorian_sword.png"
+},{
+    id: 53,
+    name: "Dwarven Blade", 
+    category: "swords",
+    image:"../images/vybava/dwarven_blade.png"
+},{
+    id: 54,
+    name: "Eirlithrad", 
+    category: "swords",
+    image:"../images/vybava/eirlithrad.png"
+},{
+    id: 55,
+    name: "Elegant Nilfgaardian shoes", 
+    category: "shoes",
+    image:"../images/vybava/elegant_nilfgaardian_shoes.png"
+},{
+    id: 56,
+    name: "Elegant Skellige shirt", 
+    category: "armors",
+    image:"../images/vybava/Elegant_Skellige_shirt.png"
+},{
+    id: 57,
+    name: "Elven Crossbow", 
+    category: "crossbows",
+    image:"../images/vybava/elven_crossbow.png"
+},{
+    id: 58,
+    name: "Elven Steel Sword", 
+    category: "swords",
+    image:"../images/vybava/elven_steel_sword.png"
+},{
+    id: 59,
+    name: "Enhance Feline Armor", 
+    category: "armors",
+    image:"../images/vybava/enhanced_feline_armor.png"
+},{
+    id: 60,
+    name: "Legendary Griffin Gauntlets", 
+    category: "gloves",
+    image:"../images/vybava/enhanced_legendary_griffin_gauntlets.png"
+},{
+    id: 61,
+    name: "Ursine Armor", 
+    category: "armors",
+    image:"../images/vybava/enhanced_ursine_armor.png"
+},{
+    id: 62,
+    name: "Eternal Fire execution armor", 
+    category: "armors",
+    image:"../images/vybava/Eternal_Fire_executioner_armor.png"
+},{
+    id: 63,
+    name: "Faroe Blade", 
+    category: "swords",
+    image:"../images/vybava/faroe_blade.png"
+},{
+    id: 64,
+    name: "Faustino", 
+    category: "swords",
+    image:"../images/vybava/faustino.png"
+},{
+    id: 65,
+    name: "Feline Silver", 
+    category: "swords",
+    image:"../images/vybava/feline_silver.png"
+},{
+    id: 66,
+    name: "Feline Trousers", 
+    category: "trousers",
+    image:"../images/vybava/feline_trousers.png"
+},{
+    id: 67,
+    name: "Falming Rose Sword", 
+    category: "swords",
+    image:"../images/vybava/flaming_rose_sword.png"
+},{
+    id: 68,
+    name: "Forged in Fire", 
+    category: "swords",
+    image:"../images/vybava/forged_in_fire.png"
+},{
+    id: 69,
+    name: "Freya Warriors ", 
+    category: "armors",
+    image:"../images/vybava/Freya_Warriors_armor.png"
+},{
+    id: 70,
+    name: "Gemmerian steel sword", 
+    category: "swords",
+    image:"../images/vybava/gemmerian_steel_sword.png"
+},{
+    id: 71,
+    name: "Gildorf Sword", 
+    category: "swords",
+    image:"../images/vybava/gildorf_sword.png"
+},{
+    id: 72,
+    name: "Gnomish Gwyhyr", 
+    category: "swords",
+    image:"../images/vybava/gnomish_gwyhyr.png"
 },
 ]
 

@@ -388,6 +388,8 @@ body {
   background-color: #181818;
   color: #e5e5e5;
   padding-top: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .container-description {
@@ -581,6 +583,9 @@ footer {
   }
   .container-description .serial-description {
     width: 100%;
+  }
+  .ornament img {
+    height: 300px;
   }
 }
 html {

@@ -452,6 +452,9 @@ body{
     background-color: $Color-Black2;
     color: $Color-White;
     padding-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px
+
 }
 
 .container-description{
@@ -719,6 +722,8 @@ footer{
         }
     }
 
+ 
+
 
 
 // Page Serials all
@@ -732,9 +737,20 @@ footer{
     .serial-description{
         width: 100%;
 
+   
+
     }
 }
 
+.ornament{
+  
+    
+
+    img{
+        height: 300px;
+  
+    }
+}
 }
 
 // Arrow funkce
