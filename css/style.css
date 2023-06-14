@@ -582,4 +582,37 @@ footer {
   .container-description .serial-description {
     width: 100%;
   }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.to-top {
+  background-color: #e5e5e5;
+  border: 2px solid #181818;
+  position: fixed;
+  bottom: 16px;
+  right: 32px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: #e50914;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s;
+}
+.to-top img {
+  width: 100%;
+  padding: 6px;
+}
+
+.to-top.active {
+  bottom: 32px;
+  pointer-events: auto;
+  opacity: 1;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
