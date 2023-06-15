@@ -1,0 +1,71 @@
+/* Moje předpřipravené animace*/
+
+/* Stačí napojit do souboru, přidělit classy  */
+
+/* 
+ class="a-move-left"
+ class="a-move-right"
+ class="a-scale-nula-max"
+ class="a-scale-nula-max-rotate"
+ 
+
+*/
+
+/* Animace vysunutí z levého okraje */
+.a-move-left{
+    opacity: 0;
+    transform: translateX(-300px);
+    transition: all 0.9s ease-out;
+    transition-delay: 0.1s;
+
+}
+
+.a-move-left-after {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Animace vysunutí z pravého okraje */
+
+.a-move-right{
+    opacity: 0;
+    transform: translateX(300px);
+    transition: all 0.9s ease-out;
+    transition-delay: 0.1s;
+
+}
+
+.a-move-right-after {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Animace Scale z 0 na 100% */
+
+.a-scale-nula-max{
+    opacity: 0;
+    transform: scale(0.0);
+    transition: all 0.9s ease-out;
+    transition-delay: 0.1s;
+
+}
+
+.a-scale-nula-max-after {
+    opacity: 1;
+    transform: scale(1.0);
+}
+
+/* Animace Scale z 0 na 100% + rotate */
+
+.a-scale-nula-max-rotate{
+    opacity: 0;
+    transform: scale(0.0) rotate(0);
+    transition: all 0.9s ease-out;
+    transition-delay: 0.9s;
+
+}
+
+.a-scale-nula-max-rotate-after {
+    opacity: 1;
+    transform: scale(1.0) rotate(-2deg);
+}

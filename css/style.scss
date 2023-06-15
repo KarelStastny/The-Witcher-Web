@@ -320,6 +320,7 @@ body{
 // Game container
 .containerGame{
     background-color: $Color-Black-Light;
+    overflow: hidden;
     h1{
         text-align: center;
         color: $Color-White;
@@ -339,10 +340,10 @@ body{
             img{
                 max-width: 600px;
                 width: 100%;
-                transform: rotate(-2deg);
+  
                 transition: 0.8s;
                 border-radius: $Radius-Small;
-                animation: I1 2s;
+                
            
 
                 &:hover{
@@ -477,6 +478,7 @@ body{
 // Index page
 .index-main{
     background-color: $Color-Black2;
+    overflow: hidden
 }
 
 .index-container{
@@ -494,7 +496,7 @@ body{
             max-width: 700px;
             width: 100%;
             margin: 30px auto;
-            animation: I1 2s;
+
         }
         p{
             color: $Color-White-Only;
@@ -504,7 +506,7 @@ body{
             font-style: italic;
             text-align: justify;
             padding: 20px;
-            animation: A1 2s;
+  
         }
     }
     

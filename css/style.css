@@ -328,6 +328,7 @@ body {
 
 .containerGame {
   background-color: rgba(20, 20, 20, 0.8196078431);
+  overflow: hidden;
 }
 .containerGame h1 {
   text-align: center;
@@ -353,10 +354,8 @@ body {
 .containerGame .containerGameSection .gameImages img {
   max-width: 600px;
   width: 100%;
-  transform: rotate(-2deg);
   transition: 0.8s;
   border-radius: 10px;
-  animation: I1 2s;
 }
 .containerGame .containerGameSection .gameImages img:hover {
   scale: 1.1;
@@ -484,6 +483,7 @@ body {
 
 .index-main {
   background-color: #181818;
+  overflow: hidden;
 }
 
 .index-container {
@@ -507,7 +507,6 @@ body {
   max-width: 700px;
   width: 100%;
   margin: 30px auto;
-  animation: I1 2s;
 }
 .index-container .index-container p {
   color: #ffffff;
@@ -517,7 +516,6 @@ body {
   font-style: italic;
   text-align: justify;
   padding: 20px;
-  animation: A1 2s;
 }
 
 footer {
