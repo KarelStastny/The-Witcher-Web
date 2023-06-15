@@ -157,6 +157,7 @@ body {
   width: 100%;
   margin: 0 auto;
   min-height: 100vh;
+  padding: 10px;
 }
 .container-character .box-input {
   text-align: center;
@@ -221,7 +222,7 @@ body {
 }
 .container-vybava .searchVybava .button-value {
   cursor: pointer;
-  margin: 10px;
+  margin: 3px;
   padding: 5px 10px;
   font-size: 20px;
   border-radius: 10px;
@@ -274,6 +275,7 @@ body {
   width: 100%;
   margin: 0 auto;
   min-height: 90vh;
+  padding: 10px;
 }
 .monster-container .searchBoxMonster {
   text-align: center;
@@ -291,7 +293,7 @@ body {
   width: 100%;
 }
 .monster-container .optionsSearch {
-  text-align: center;
+  text-align: justify;
 }
 .monster-container .allmonster {
   display: flex;
@@ -374,6 +376,7 @@ body {
   color: #e5e5e5;
   margin: 20px;
   font-size: 18px;
+  text-align: justify;
 }
 
 .body-serial {
@@ -513,7 +516,7 @@ body {
   word-spacing: 8px;
   font-style: italic;
   text-align: justify;
-  padding: 10px;
+  padding: 20px;
   animation: A1 2s;
 }
 
@@ -523,19 +526,6 @@ footer {
   text-align: center;
   line-height: 40px;
   color: #e5e5e5;
-}
-
-.topArrow {
-  font-size: 20px;
-  border: 3px solid red;
-  position: absolute;
-  right: 15px;
-  bottom: 15px;
-  position: fixed;
-  width: 75px;
-  height: 75px;
-  border-radius: 50%;
-  display: none;
 }
 
 @keyframes A1 {
@@ -560,26 +550,6 @@ footer {
   }
   100% {
     transform: rotate(15deg) scale(1);
-  }
-}
-@media only screen and (max-width: 1100px) {
-  .containerGame .containerGameSection {
-    flex-direction: column;
-  }
-  .containerGame .containerGameSection .gameImages {
-    width: 100%;
-  }
-  .container-description {
-    flex-direction: column;
-  }
-  .container-description .hedding-serial {
-    width: 100%;
-  }
-  .container-description .serial-description {
-    width: 100%;
-  }
-  .ornament img {
-    height: 300px;
   }
 }
 html {
@@ -639,4 +609,31 @@ html {
 .copy-container .copy-button img {
   width: 100%;
   padding: 5px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .containerGame .containerGameSection {
+    flex-direction: column;
+  }
+  .containerGame .containerGameSection .gameImages {
+    width: 100%;
+  }
+  .container-description {
+    flex-direction: column;
+  }
+  .container-description .hedding-serial {
+    width: 100%;
+  }
+  .container-description .serial-description {
+    width: 100%;
+  }
+  .ornament img {
+    height: 300px;
+  }
+  .serial-container {
+    padding-top: 1px;
+  }
+  .container-description {
+    box-shadow: none;
+  }
 }/*# sourceMappingURL=style.css.map */
