@@ -404,7 +404,7 @@ body{
         padding: 20px;
 
         .gameImages{
-            width: 50%;
+            min-width: 50%;
             text-align: center;
             img{
                 max-width: 600px;
@@ -421,7 +421,7 @@ body{
             }
         }
         .descriptionGame{
-            width: 50%;
+            // width: 50%;
             h2{
                 color: $Color-White;
                 text-align: center;
@@ -701,8 +701,10 @@ footer{
 .containerGame{
 
     .containerGameSection{
+       
 
         flex-direction: column;
+       
 
         .gameImages{
             width: 100%;
@@ -710,15 +712,7 @@ footer{
 
             }
         }
-        .descriptionGame{
-            width: 100%;
-            h2{
-  
-            }
 
-            p{
- 
-            }
         }
     }
 
@@ -793,5 +787,37 @@ html{
 
 }
 
+// Copy funkce
+
+.copy-container{
+    display: flex;
+    .link-url{
+        max-width: 250px;
+        width: 100%;
+        outline: none;
+        height: 33px;
+    }
+    
+    .copy-button{
+        cursor: pointer;
+        border: none;
+        margin-left: 2px;
+        border-radius: 2px;
+        width: 33px;
+        height: 33px;
+
+        &:hover{
+            background-color: $Color-Link;
+
+        }
+    
+        img{
+            width: 100%;
+            padding: 5px;
+
+           
+        }
+    }
+}
 
 

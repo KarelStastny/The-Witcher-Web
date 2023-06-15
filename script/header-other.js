@@ -10,7 +10,7 @@ let navigation = document.createElement("div")
 
 
       <ul class="nav-menu">
-          <li><a href="#">Gallery:</a>
+          <li><a href="#">Galerie:</a>
           
               <!-- Rozbalovací menu -->
               <ul>

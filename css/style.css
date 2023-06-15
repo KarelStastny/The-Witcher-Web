@@ -345,7 +345,7 @@ body {
   padding: 20px;
 }
 .containerGame .containerGameSection .gameImages {
-  width: 50%;
+  min-width: 50%;
   text-align: center;
 }
 .containerGame .containerGameSection .gameImages img {
@@ -358,9 +358,6 @@ body {
 }
 .containerGame .containerGameSection .gameImages img:hover {
   scale: 1.1;
-}
-.containerGame .containerGameSection .descriptionGame {
-  width: 50%;
 }
 .containerGame .containerGameSection .descriptionGame h2 {
   color: #e5e5e5;
@@ -572,9 +569,6 @@ footer {
   .containerGame .containerGameSection .gameImages {
     width: 100%;
   }
-  .containerGame .descriptionGame {
-    width: 100%;
-  }
   .container-description {
     flex-direction: column;
   }
@@ -620,4 +614,29 @@ html {
   pointer-events: auto;
   opacity: 1;
   cursor: pointer;
+}
+
+.copy-container {
+  display: flex;
+}
+.copy-container .link-url {
+  max-width: 250px;
+  width: 100%;
+  outline: none;
+  height: 33px;
+}
+.copy-container .copy-button {
+  cursor: pointer;
+  border: none;
+  margin-left: 2px;
+  border-radius: 2px;
+  width: 33px;
+  height: 33px;
+}
+.copy-container .copy-button:hover {
+  background-color: #007FFF;
+}
+.copy-container .copy-button img {
+  width: 100%;
+  padding: 5px;
 }/*# sourceMappingURL=style.css.map */
