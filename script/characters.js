@@ -215,11 +215,8 @@ search.addEventListener("input", (e) => {
 })
 
 
-
 // Pole pro všechny charaktery
 let allCharacter = []
-
-
 
 // Výpis všech dat
 characters.map( (oneCharacter) =>{
@@ -231,16 +228,13 @@ characters.map( (oneCharacter) =>{
     <img src="${oneCharacter.image}" alt="${oneCharacter.name}">
     <p>${oneCharacter.name}</p>
     </div>`
-    console.log(oneCharacter);
+    // console.log(oneCharacter);
 
     // Přidání do stránky a do nového pole
     listCharacter.appendChild(card)
     allCharacter.push(card)
 
 })
-
-
-
 
 
 // Filtrování pomocí přidání classy hide + CSS

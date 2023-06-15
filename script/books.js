@@ -78,7 +78,7 @@ let allBooks = [ {
 
 // Page All books vložení všech knih
 let booksArray = allBooks
-console.log(allBooks);
+// console.log(allBooks);
 
 booksArray.map( (oneBook) =>{
 

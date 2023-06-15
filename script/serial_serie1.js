@@ -51,7 +51,7 @@ const serial = [{
 
 // Výpis do stránky
     for( let i of serial){
-        console.log(i);
+        // console.log(i);
 
         let card = document.createElement("div")
             card.classList.add("card-serial")
@@ -65,7 +65,7 @@ const serial = [{
         <p>${i.description}</p>
         `
 
-        console.log(card);
+        // console.log(card);
 
         document.querySelector(".serial-parts").appendChild(card)
     }

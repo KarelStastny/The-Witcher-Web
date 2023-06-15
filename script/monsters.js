@@ -315,7 +315,6 @@ const renderMonster = (ourMonsters, searchingText) => {
     })
 
     // Do Array se uloží pouze výsledky které odpovídají zadání
-    // console.log(array);
 
     // Promazání pole výsledků 
     document.querySelector(".allmonster").innerHTML = ""

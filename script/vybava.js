@@ -378,8 +378,6 @@ const filter = (value) => {
         buttons.forEach( (oneButton) => {
         // Rozlišení na jaké tlačítko se klikno
             // Porovná Hodnotu poslanou do funkce z HTML s názevem button
-            console.log(value.toLowerCase());
-            console.log(oneButton.innerText.toLowerCase());
 
             if(value.toLowerCase() == oneButton.innerText.toLowerCase()){
                 // Pokud se rovná přidána classa 
