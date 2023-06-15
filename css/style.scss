@@ -20,60 +20,7 @@
     $Radius-Cirkle:50%;
     $Radius-Small:10px;
 
-// Mixin
-@mixin standartFlex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    
-}
 
-@mixin FlexColumn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-}
-
-@mixin FlexSpaceBetween{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-}
-
-@mixin OtherPageHeddingH2{
-    margin-top: 20px;
-    text-align: center;
-    font-size: 60px;
-    text-shadow: 0 0 30px $Color-Black;
-}
-
-@mixin Underline{
-    border-bottom: 4px solid #e50914;
-    border-radius: 5px;
-    transition: all 0.2s;
-    text-shadow: 0 0 10px #e50914;
-}
-@mixin RowPage {
-    max-width: 1600px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-@mixin SearchInput(){
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 40px;
-    font-size: 25px;
-    padding: 5px 15px;
-    outline: none;
-    border-radius: $Radius-Small;
-    border: 1px solid $Color-Black;
-    max-width: 400px;
-    width: 100%
-}
 /***************************** Wallpapers page */
 body{
     background-color: $Color-White;
@@ -135,7 +82,6 @@ body{
             height: 450px;
             object-fit: cover;
             
-
         }
 
         h3{
@@ -174,23 +120,17 @@ body{
     background-color: $Color-Black;
     border-radius: $Radius-Small;
 
-
-
     .box{
         display: flex;
-        
-
         img{
             height: 500px;
             width: 350px;
             border-top-left-radius: $Radius-Small;;
-
         }
         .details{
             margin-top: 60px;
             width: 100%;
             color: $Color-White;
-
             
             h3{
                 @include OtherPageHeddingH2();
@@ -207,8 +147,6 @@ body{
                 text-decoration: underline;
                 color: $Color-Link;
             }
-
-            
         }
     }
     .description{
@@ -229,9 +167,7 @@ body{
     min-height: 100vh;
     .box-input{
         text-align: center;
-        
-        
-    
+
         .search-character{
             @include SearchInput();
         }
@@ -239,10 +175,8 @@ body{
     }
 
     .character-list{
-        // margin-top: 60px;
         @include standartFlex();
         flex-wrap: wrap;
-    
     
     }
     .character-list .hide{
@@ -278,7 +212,6 @@ body{
 .container-vybava{
     min-height: 90vh;
    
-
     .searchVybava{
         height: 100px;
         @include standartFlex();
@@ -295,7 +228,6 @@ body{
             background-color: $Color-Black;
             color: $Color-White;
             letter-spacing: 2px
-
         }
 
         .activeBtn{
@@ -318,7 +250,6 @@ body{
                 width: 250px;
                 height: 200px;
                 object-fit: contain;
-    
             }
     
             h3{
@@ -340,7 +271,6 @@ body{
 
     .searchBoxMonster{
         text-align: center;
-
 
         .monsterInput{
             @include SearchInput();
@@ -395,7 +325,6 @@ body{
         font-size: 60px;
         padding: 30px;
 
-
     }
     .containerGameSection{
         @include RowPage();
@@ -421,7 +350,7 @@ body{
             }
         }
         .descriptionGame{
-            // width: 50%;
+
             h2{
                 color: $Color-White;
                 text-align: center;
@@ -454,7 +383,6 @@ body{
     padding-top: 60px;
     padding-left: 10px;
     padding-right: 10px
-
 }
 
 .container-description{
@@ -465,41 +393,30 @@ body{
     box-shadow: 0 0 10px $Color-White;
     padding: 10px;
     margin: 20px auto;
- 
-
-    
-
 
     .hedding-serial{
         text-align: center;
         width: 50%;
-   
         display: flex;
         align-items: center;
         justify-content: space-between;
         flex-direction: column;
- 
-
         
         h2{
             color: $Color-White-Only;
             padding: 30px;
             font-size: 30px;
             text-decoration: underline 2px;
-       
- 
-            
         }
 
         .ornament{
-            
-
             img{
                 width: 100%;
                 animation: ornament 2s infinite  alternate-reverse;
             }
         }
     }
+
     .serial-description{
         padding: 10px;
         width: 50%;
@@ -508,7 +425,6 @@ body{
             color: $Color-White-Only;
             margin: 10px 0;
             border-bottom: 1px solid $Color-White;
-
         }
         p{
             padding-left: 10px;
@@ -524,21 +440,18 @@ body{
 
 }
 
-// Jednotlivé stránky
+
+// Jednotlivé stránky seriálu
 .serial-parts{
     @include RowPage();
     @include standartFlex();
     flex-wrap: wrap;
 
-
-
     .card-serial{
         max-width: 400px;
         width: 100%;
         height: 400px;
-
         margin: 10px;
-   
 
         img{
             object-fit: cover;
@@ -576,9 +489,6 @@ body{
         h2{
             @include OtherPageHeddingH2();
             color: $Color-White-Only;
-            
-
-
         }
         img{
             max-width: 700px;
@@ -595,13 +505,8 @@ body{
             text-align: justify;
             padding: 10px;
             animation: A1 2s;
-            
-
         }
-
     }
-
-
     
 }
 
@@ -617,44 +522,6 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// scroll 
-.topArrow{
-    font-size: 20px;
-    border: 3px solid red;
-    position: absolute;
-    right: 15px;
-    bottom: 15px;
-    position: fixed;
-    width: 75px;
-    height: 75px;
-    border-radius: $Radius-Cirkle;
-    display: none;
-
-
-
-}
 // Animation
 
 @keyframes A1 {
@@ -692,60 +559,8 @@ footer{
 
 
 
+// Styly pro funkce
 
-
-// Media Query
-@media only screen and (max-width: 1100px) {
-
- // Game container
-.containerGame{
-
-    .containerGameSection{
-       
-
-        flex-direction: column;
-       
-
-        .gameImages{
-            width: 100%;
-
-
-            }
-        }
-
-        }
-    }
-
- 
-
-
-
-// Page Serials all
-
-.container-description{
-    flex-direction: column;
-
-    .hedding-serial{
-        width: 100%;
-    }
-    .serial-description{
-        width: 100%;
-
-   
-
-    }
-}
-
-.ornament{
-  
-    
-
-    img{
-        height: 300px;
-  
-    }
-}
-}
 
 // Arrow funkce
 
@@ -775,8 +590,6 @@ html{
         width: 100%;
         padding: 6px;
     }
-    
-
 }
 
 .to-top.active{
@@ -784,11 +597,9 @@ html{
     pointer-events:auto;
     opacity: 1;
     cursor: pointer;
-
 }
 
 // Copy funkce
-
 .copy-container{
     display: flex;
     .link-url{
@@ -808,16 +619,43 @@ html{
 
         &:hover{
             background-color: $Color-Link;
-
         }
     
         img{
             width: 100%;
             padding: 5px;
-
-           
         }
     }
 }
 
 
+
+// Media Query
+@media only screen and (max-width: 1100px) {
+
+    // Game container
+    .containerGame{
+        .containerGameSection{
+            flex-direction: column;
+            .gameImages{
+                width: 100%;
+                }
+            }
+            }
+        }
+    
+   // Page Serials all
+    .container-description{
+        flex-direction: column;
+        .hedding-serial{
+            width: 100%;
+        }
+        .serial-description{
+            width: 100%;
+        }
+    }
+    .ornament{
+        img{
+            height: 300px;
+        }
+    }
