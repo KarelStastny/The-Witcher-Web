@@ -118,7 +118,8 @@ body {
 }
 .containerPart .box img {
   height: 500px;
-  width: 350px;
+  max-width: 350px;
+  width: 100%;
   border-top-left-radius: 10px;
 }
 .containerPart .box .details {
@@ -526,22 +527,6 @@ footer {
   color: #e5e5e5;
 }
 
-@keyframes A1 {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-@keyframes I1 {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
 @keyframes ornament {
   0% {
     transform: rotate(-15deg) scale(0.55);
@@ -633,5 +618,11 @@ html {
   }
   .container-description {
     box-shadow: none;
+  }
+  .box {
+    flex-direction: column;
+  }
+  .box img {
+    margin: 0 auto;
   }
 }/*# sourceMappingURL=style.css.map */

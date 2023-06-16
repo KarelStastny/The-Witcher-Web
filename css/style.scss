@@ -125,7 +125,8 @@ body{
         display: flex;
         img{
             height: 500px;
-            width: 350px;
+            max-width: 350px;
+            width: 100%;
             border-top-left-radius: $Radius-Small;;
         }
         .details{
@@ -526,36 +527,14 @@ footer{
 
 // Animation
 
-@keyframes A1 {
-    0% {
-        transform: translateX(-100%);
-    }
-
-    100%{
-        transform: translateX(0);
-    }
-}
-
-@keyframes I1{
-    0%{
-        transform: scale(0.0);
-    }
-
-    100%{
-        transform: scale(1.0);
-    }
-}
 
 @keyframes ornament{
     0%{
         transform: rotate(-15deg) scale(0.55) ;
-   
     }
 
     100%{
         transform: rotate(15deg) scale(1.0) ;
- 
-       
     }
 }
 
@@ -668,6 +647,14 @@ html{
         box-shadow: none;
     }
 
+
+    // One page Book
+    .box{
+        flex-direction: column;
+        img{
+            margin: 0 auto;
+        }
+    }
 
 
 // Konec Query

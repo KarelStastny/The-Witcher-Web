@@ -1,7 +1,7 @@
 let allBooks = [ {
     name: "Zaklínač I. Poslední přání",
     publication: 1999,
-    image:"../images/books/book-1.jpg" ,
+    image:"../images/books/book-1.JPG" ,
     author: "Andrzej Sapkowski",
     pages: 280,
     ISBN: "80-85951-14-2",
@@ -11,7 +11,7 @@ let allBooks = [ {
 },{
     name: "Zaklínač II. Meč Osudu",
     publication: 2000,
-    image:"../images/books/book-2.jpg" ,
+    image:"../images/books/book-2.JPG" ,
     author: "Andrzej Sapkowski",
     pages: 344,
     ISBN: "80-85951-23-1",
@@ -21,7 +21,7 @@ let allBooks = [ {
 },{
     name: "Zaklínač III. Krev Elfů",
     publication: 2009,
-    image:"../images/books/book-3.jpg" ,
+    image:"../images/books/book-3.JPG" ,
     author: "Andrzej Sapkowski",
     pages: 316,
     ISBN: "978-80-7477-081-4",
@@ -31,7 +31,7 @@ let allBooks = [ {
 },{
     name: "Zaklínač IV. Čas Opovržení",
     publication: 2011,
-    image:"../images/books/book-4.jpg" ,
+    image:"../images/books/book-4.JPG" ,
     author: "Andrzej Sapkowski",
     pages: 342,
     ISBN: "978-80-85951-70-7",
@@ -41,7 +41,7 @@ let allBooks = [ {
 },{
     name: "Zaklínač V. Křest ohněm",
     publication: 2011,
-    image:"../images/books/book-5.jpg" ,
+    image:"../images/books/book-5.JPG" ,
     author: "Andrzej Sapkowski",
     pages: 353,
     ISBN: "978-80-85951-71-4",
@@ -53,7 +53,7 @@ let allBooks = [ {
 
     name: "Zaklínač VI. Věž vlaštovky",
     publication: 2013,
-    image:"../images/books/book-6.jpg" ,
+    image:"../images/books/book-6.JPG" ,
     author: "Andrzej Sapkowski",
     pages: 456,
     ISBN: "978-80-85951-73-8",
@@ -65,7 +65,7 @@ let allBooks = [ {
 
     name: "Zaklínač VII. Paní jezera",
     publication: 2013,
-    image:"../images/books/book-7.jpg" ,
+    image:"../images/books/book-7.JPG" ,
     author: "Andrzej Sapkowski",
     pages: 559,
     ISBN: "978-80-7477-086-9",
